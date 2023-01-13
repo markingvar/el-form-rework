@@ -1,0 +1,1 @@
+{"version":3,"file":"hidden.d.ts","sourceRoot":"","sources":["../../src/components/hidden.tsx"],"names":[],"mappings":"AAIA,wBAAgB,WAAW,CAAC,EAC1B,YAAY,EACZ,cAAc,GACf,EAAE;IACD,YAAY,EAAE;QACZ,KAAK,CAAC,EAAE,MAAM,CAAC;KAChB,CAAC;IACF,cAAc,EAAE;QACd,YAAY,CAAC,EAAE,MAAM,CAAC;QACtB,IAAI,EAAE,MAAM,CAAC;KACd,CAAC;CACH,eAIA"}

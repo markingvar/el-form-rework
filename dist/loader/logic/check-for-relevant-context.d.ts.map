@@ -1,0 +1,1 @@
+{"version":3,"file":"check-for-relevant-context.d.ts","sourceRoot":"","sources":["../../../src/loader/logic/check-for-relevant-context.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAkB,aAAa,EAAE,MAAM,aAAa,CAAC;AAajE,iBAAS,uBAAuB,CAAC,EAC/B,aAAa,EACb,OAAO,GACR,EAAE;IACD,aAAa,EAAE,aAAa,CAAC;IAC7B,OAAO,EAAE,GAAG,CAAC;CACd,GAAG,GAAG,CAmCN;AAqDD,OAAO,EAAE,uBAAuB,EAAE,CAAC"}

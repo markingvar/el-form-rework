@@ -1,0 +1,1 @@
+{"version":3,"file":"check-context-for-errors.d.ts","sourceRoot":"","sources":["../../../src/action/logic/check-context-for-errors.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAkB,aAAa,EAAE,MAAM,aAAa,CAAC;AAGjE,wBAAgB,qBAAqB,CAAC,EACpC,OAAO,EACP,aAAa,GACd,EAAE;IACD,aAAa,EAAE,aAAa,CAAC;IAC7B,OAAO,EAAE,GAAG,CAAC;CACd,GAAG,OAAO,CA+BV"}

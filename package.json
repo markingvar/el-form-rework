@@ -1,0 +1,65 @@
+{
+  "name": "electric-ladyland-form",
+  "version": "0.0.22-16",
+  "description": "Remix.run form library because form libraries are easy and there isn't enough of them.",
+  "platform": "node",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "autoprefixer": "^10.4.7",
+    "chokidar": "^3.5.3",
+    "cssnano": "^5.1.12",
+    "esbuild": "^0.14.48",
+    "esbuild-node-externals": "^1.4.1",
+    "node-css-mqpacker": "^9.0.0",
+    "np": "^7.6.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.0.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" ",
+    "dev": "run-p dev:*",
+    "dev:postcss": "postcss styles --base styles --dir dist/styles -w",
+    "dev:esbuild": "node serve.js",
+    "dev:tsc": "tsc",
+    "build": "npm run clean && run-s build:*",
+    "build:postcss": "postcss styles --base styles --dir dist/styles --env production",
+    "build:esbuild": "node build.js",
+    "build:tsc": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magikmarker/electric-ladyland-form.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Remix Run",
+    "React",
+    "Remix Form Library",
+    "Blazingly Fast"
+  ],
+  "author": "magikmarker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magikmarker/electric-ladyland-form/issues"
+  },
+  "homepage": "https://github.com/magikmarker/electric-ladyland-form#readme",
+  "dependencies": {
+    "@reach/dialog": "^0.17.0",
+    "@remix-run/node": "^1.6.3",
+    "react-icons": "^4.4.0"
+  },
+  "peerDependencies": {
+    "@remix-run/eslint-config": "^1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
