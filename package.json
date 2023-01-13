@@ -1,5 +1,5 @@
 {
-  "name": "electric-ladyland-form",
+  "name": "el-rework",
   "version": "0.0.22-16",
   "description": "Remix.run form library because form libraries are easy and there isn't enough of them.",
   "platform": "node",
